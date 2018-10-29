@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FE1C332186DBC6001F2134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FE1C322186DBC6001F2134 /* AppDelegate.swift */; };
+		05FE1C352186DBC6001F2134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FE1C342186DBC6001F2134 /* ViewController.swift */; };
+		05FE1C382186DBC6001F2134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FE1C362186DBC6001F2134 /* Main.storyboard */; };
+		05FE1C3A2186DBC6001F2134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FE1C392186DBC6001F2134 /* Assets.xcassets */; };
+		05FE1C3D2186DBC6001F2134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FE1C3B2186DBC6001F2134 /* LaunchScreen.storyboard */; };
+		05FE1C692186FD86001F2134 /* Metamorphosis-jackson.epub in Resources */ = {isa = PBXBuildFile; fileRef = 05FE1C682186FD85001F2134 /* Metamorphosis-jackson.epub */; };
+		05FE1CC421874555001F2134 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CBB21874554001F2134 /* ZipArchive.framework */; };
+		05FE1CC521874555001F2134 /* ZipArchive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CBB21874554001F2134 /* ZipArchive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05FE1CC621874556001F2134 /* FolioReaderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CBC21874554001F2134 /* FolioReaderKit.framework */; };
+		05FE1CC721874556001F2134 /* FolioReaderKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CBC21874554001F2134 /* FolioReaderKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05FE1CC821874556001F2134 /* JSQWebViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CBD21874554001F2134 /* JSQWebViewController.framework */; };
+		05FE1CC921874556001F2134 /* JSQWebViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CBD21874554001F2134 /* JSQWebViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05FE1CCA21874556001F2134 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CBE21874554001F2134 /* Realm.framework */; };
+		05FE1CCB21874556001F2134 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CBE21874554001F2134 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05FE1CCC21874556001F2134 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CBF21874555001F2134 /* RealmSwift.framework */; };
+		05FE1CCD21874556001F2134 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CBF21874555001F2134 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05FE1CCE21874556001F2134 /* ZFDragableModalTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CC021874555001F2134 /* ZFDragableModalTransition.framework */; };
+		05FE1CCF21874556001F2134 /* ZFDragableModalTransition.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CC021874555001F2134 /* ZFDragableModalTransition.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05FE1CD021874556001F2134 /* FontBlaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CC121874555001F2134 /* FontBlaster.framework */; };
+		05FE1CD121874556001F2134 /* FontBlaster.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CC121874555001F2134 /* FontBlaster.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05FE1CD221874556001F2134 /* MenuItemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CC221874555001F2134 /* MenuItemKit.framework */; };
+		05FE1CD321874556001F2134 /* MenuItemKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CC221874555001F2134 /* MenuItemKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05FE1CD421874556001F2134 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CC321874555001F2134 /* AEXML.framework */; };
+		05FE1CD521874556001F2134 /* AEXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05FE1CC321874555001F2134 /* AEXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05E418A22186EDDC00FCA089 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				05FE1CCB21874556001F2134 /* Realm.framework in Embed Frameworks */,
+				05FE1CCF21874556001F2134 /* ZFDragableModalTransition.framework in Embed Frameworks */,
+				05FE1CCD21874556001F2134 /* RealmSwift.framework in Embed Frameworks */,
+				05FE1CD121874556001F2134 /* FontBlaster.framework in Embed Frameworks */,
+				05FE1CC721874556001F2134 /* FolioReaderKit.framework in Embed Frameworks */,
+				05FE1CD321874556001F2134 /* MenuItemKit.framework in Embed Frameworks */,
+				05FE1CC921874556001F2134 /* JSQWebViewController.framework in Embed Frameworks */,
+				05FE1CD521874556001F2134 /* AEXML.framework in Embed Frameworks */,
+				05FE1CC521874555001F2134 /* ZipArchive.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05FE1C2F2186DBC6001F2134 /* EPubPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPubPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FE1C322186DBC6001F2134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05FE1C342186DBC6001F2134 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05FE1C372186DBC6001F2134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05FE1C392186DBC6001F2134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05FE1C3C2186DBC6001F2134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05FE1C3E2186DBC6001F2134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05FE1C682186FD85001F2134 /* Metamorphosis-jackson.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metamorphosis-jackson.epub"; sourceTree = "<group>"; };
+		05FE1CBB21874554001F2134 /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipArchive.framework; path = Carthage/Build/iOS/ZipArchive.framework; sourceTree = "<group>"; };
+		05FE1CBC21874554001F2134 /* FolioReaderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FolioReaderKit.framework; path = Carthage/Build/iOS/FolioReaderKit.framework; sourceTree = "<group>"; };
+		05FE1CBD21874554001F2134 /* JSQWebViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSQWebViewController.framework; path = Carthage/Build/iOS/JSQWebViewController.framework; sourceTree = "<group>"; };
+		05FE1CBE21874554001F2134 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		05FE1CBF21874555001F2134 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		05FE1CC021874555001F2134 /* ZFDragableModalTransition.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZFDragableModalTransition.framework; path = Carthage/Build/iOS/ZFDragableModalTransition.framework; sourceTree = "<group>"; };
+		05FE1CC121874555001F2134 /* FontBlaster.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontBlaster.framework; path = Carthage/Build/iOS/FontBlaster.framework; sourceTree = "<group>"; };
+		05FE1CC221874555001F2134 /* MenuItemKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MenuItemKit.framework; path = Carthage/Build/iOS/MenuItemKit.framework; sourceTree = "<group>"; };
+		05FE1CC321874555001F2134 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/iOS/AEXML.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05FE1C2C2186DBC6001F2134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FE1CCA21874556001F2134 /* Realm.framework in Frameworks */,
+				05FE1CCE21874556001F2134 /* ZFDragableModalTransition.framework in Frameworks */,
+				05FE1CCC21874556001F2134 /* RealmSwift.framework in Frameworks */,
+				05FE1CD021874556001F2134 /* FontBlaster.framework in Frameworks */,
+				05FE1CC621874556001F2134 /* FolioReaderKit.framework in Frameworks */,
+				05FE1CD221874556001F2134 /* MenuItemKit.framework in Frameworks */,
+				05FE1CC821874556001F2134 /* JSQWebViewController.framework in Frameworks */,
+				05FE1CD421874556001F2134 /* AEXML.framework in Frameworks */,
+				05FE1CC421874555001F2134 /* ZipArchive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05FE1C262186DBC6001F2134 = {
+			isa = PBXGroup;
+			children = (
+				05FE1CC321874555001F2134 /* AEXML.framework */,
+				05FE1CBC21874554001F2134 /* FolioReaderKit.framework */,
+				05FE1CC121874555001F2134 /* FontBlaster.framework */,
+				05FE1CBD21874554001F2134 /* JSQWebViewController.framework */,
+				05FE1CC221874555001F2134 /* MenuItemKit.framework */,
+				05FE1CBE21874554001F2134 /* Realm.framework */,
+				05FE1CBF21874555001F2134 /* RealmSwift.framework */,
+				05FE1CC021874555001F2134 /* ZFDragableModalTransition.framework */,
+				05FE1CBB21874554001F2134 /* ZipArchive.framework */,
+				05FE1C312186DBC6001F2134 /* EPubPOC */,
+				05FE1C302186DBC6001F2134 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05FE1C302186DBC6001F2134 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05FE1C2F2186DBC6001F2134 /* EPubPOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05FE1C312186DBC6001F2134 /* EPubPOC */ = {
+			isa = PBXGroup;
+			children = (
+				05FE1C682186FD85001F2134 /* Metamorphosis-jackson.epub */,
+				05FE1C322186DBC6001F2134 /* AppDelegate.swift */,
+				05FE1C342186DBC6001F2134 /* ViewController.swift */,
+				05FE1C362186DBC6001F2134 /* Main.storyboard */,
+				05FE1C392186DBC6001F2134 /* Assets.xcassets */,
+				05FE1C3B2186DBC6001F2134 /* LaunchScreen.storyboard */,
+				05FE1C3E2186DBC6001F2134 /* Info.plist */,
+			);
+			path = EPubPOC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05FE1C2E2186DBC6001F2134 /* EPubPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FE1C412186DBC6001F2134 /* Build configuration list for PBXNativeTarget "EPubPOC" */;
+			buildPhases = (
+				05FE1C2B2186DBC6001F2134 /* Sources */,
+				05FE1C2C2186DBC6001F2134 /* Frameworks */,
+				05FE1C2D2186DBC6001F2134 /* Resources */,
+				05E418A22186EDDC00FCA089 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPubPOC;
+			productName = EPubPOC;
+			productReference = 05FE1C2F2186DBC6001F2134 /* EPubPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05FE1C272186DBC6001F2134 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Solution Analysts";
+				TargetAttributes = {
+					05FE1C2E2186DBC6001F2134 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 05FE1C2A2186DBC6001F2134 /* Build configuration list for PBXProject "EPubPOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05FE1C262186DBC6001F2134;
+			productRefGroup = 05FE1C302186DBC6001F2134 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05FE1C2E2186DBC6001F2134 /* EPubPOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05FE1C2D2186DBC6001F2134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FE1C3D2186DBC6001F2134 /* LaunchScreen.storyboard in Resources */,
+				05FE1C692186FD86001F2134 /* Metamorphosis-jackson.epub in Resources */,
+				05FE1C3A2186DBC6001F2134 /* Assets.xcassets in Resources */,
+				05FE1C382186DBC6001F2134 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05FE1C2B2186DBC6001F2134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FE1C352186DBC6001F2134 /* ViewController.swift in Sources */,
+				05FE1C332186DBC6001F2134 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05FE1C362186DBC6001F2134 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05FE1C372186DBC6001F2134 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05FE1C3B2186DBC6001F2134 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05FE1C3C2186DBC6001F2134 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05FE1C3F2186DBC6001F2134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05FE1C402186DBC6001F2134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05FE1C422186DBC6001F2134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = EPubPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solutionanalysts.EPubPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05FE1C432186DBC6001F2134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = EPubPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.solutionanalysts.EPubPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05FE1C2A2186DBC6001F2134 /* Build configuration list for PBXProject "EPubPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FE1C3F2186DBC6001F2134 /* Debug */,
+				05FE1C402186DBC6001F2134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FE1C412186DBC6001F2134 /* Build configuration list for PBXNativeTarget "EPubPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FE1C422186DBC6001F2134 /* Debug */,
+				05FE1C432186DBC6001F2134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05FE1C272186DBC6001F2134 /* Project object */;
+}
