@@ -19,13 +19,13 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        config.shouldHideNavigationOnTap = false
         config.allowSharing = false
         config.enableTTS = false
-        
+        config.displayTitle = true
         config.useReaderMenuController = false
         config.canChangeScrollDirection = false
         config.tintColor = UIColor.white
+        config.shouldHideNavigationOnTap = true
     }
 
 
